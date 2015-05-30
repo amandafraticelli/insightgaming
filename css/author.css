@@ -50,85 +50,28 @@ padding: 20px;
 
 }
 
-.clearcoat{
+
+
+.gallery{
 
 height: 700px;
 width: 317px;
-background-color: #7992a2;
-opacity: 0.5;
+/*background-color: #7992a2;*/
 text-align: center;
 padding: 20px;
 border-radius: 5px;
 margin: 25px auto;
 
+}
+
+#scroll{
+
+
+height:400px; 
+background-color: #7992a2;
 
 }
 
 
 
 
-
-
-		.gallery {border: solid 10px #3361b0;
-				  overflow: auto;
-				  padding: 50px 0px 50px 45px;}
-
-
-		.gallery div {width: 200px;
-					  height: 100px;
-					  border: solid 5px #b1661a;
-
-				      margin:10px;
-
-				      overflow: hidden;
-
-				      float: left;}
-
-		/* having percentages allows the child to scale with the parent instead of having to change the width and height each time */
-
-		.gallery div img{width: 100%;}
-
-
-		/*grayed out area (transparent)*/
-		#dark {display: none;
-			   background-color: rgba(0,0,0,.8);
-
-		       position: fixed;
-		   	   top: 0px;
-		   	   bottom: 0px;
-		   	   right: 0px;
-		   	   left: 0px;
-
-		   	   z-index: 1000;}
-
-
-		 #dark #light {background-color: #fff;
-		               
-		               width: 600px;
-		               height: 340px;
-
-		               position: fixed;
-		               top: 0px;
-		   	           bottom: 0px;
-		   	           right: 0px;
-		   	           left: 0px;
-
-		   	           margin: auto;
-
-		   	           padding: 10px;}
-
-
-		 
-		 #dark #light img {width: 100%;
-		   				   height: auto;}
-
-
-
-
-		 #dark #light .close {position: absolute;
-		   	                  right: 0px;
-		   	                  top: 0px;
-
-		   	              	  background-color: #fff;
-		                      font-size: 12px;
-		                      padding: 5px;}				 		  		
