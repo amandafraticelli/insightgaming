@@ -21,14 +21,6 @@ padding: 20px;
 }
 
 
-.trends {
-
-width: 360px;
-height: 200px;
-background-color: #4e6877;
-
-}
-
 
 #containerbox {
 
@@ -72,6 +64,25 @@ background-color: #7992a2;
 
 }
 
+#hubcontainerbox{
+
+width: 380px;
+height: 570px;
+background-color: #0b2f42;
+margin: 25px auto;
+border-radius: 10px;
+}
+
+
+#backdrop{
+
+width: 317px;
+height: 525px;
+background-color: #7992a2;
+margin: 25px auto;
+border-radius: 10px;
+padding: 20px;
+}
 
 
 
