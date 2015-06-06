@@ -1,5 +1,48 @@
 body { font-family: Helvetica}
 
+
+nav#mainmenu { text-align: center; margin-bottom: -40px; } 
+nav#mainmenu a {
+	display: inline-block;
+	/*width: 60px;*/
+	/*height: 60px;*/
+	/*line-height: 60px;*/
+	/*text-align: center;*/
+	padding: 19px;
+	/*unlicked tabs color*/
+	background-color: #9fbc7c;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 60px;
+	margin-left: 15px;
+	margin-top: -50px;
+
+	font-size: 13px;
+
+	position: relative;
+
+	bottom: -313px;
+	/*right:-100px;*/
+
+}
+
+
+
+/*hover color*/
+nav#mainmenu a:hover {
+	background-color: #a0d190;}
+						  
+
+nav#mainmenu a.selected {
+	/*clicked tab color*/
+	background-color: #CDE3B4;
+}
+
+
+
+
+
+
 #container {
 
 width: 380px;
