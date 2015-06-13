@@ -13,7 +13,7 @@ nav#mainmenu a {
 	background-color: #9fbc7c;
 	color: #fff;
 	text-decoration: none;
-	border-radius: 60px;
+	border-radius: 10px;
 	margin-left: 15px;
 	margin-top: -50px;
 
@@ -21,8 +21,9 @@ nav#mainmenu a {
 
 	position: relative;
 
-	bottom: -313px;
-	/*right:-100px;*/
+	bottom: -444px;
+	left: -8px;
+	
 
 }
 
@@ -43,35 +44,49 @@ nav#mainmenu a.selected {
 
 
 
-#container {
+#mainContainer {
 
 width: 380px;
-height: 570px;
+height: 598px;
 background-color: #0b2f42;
 margin: 25px auto;
-border-radius: 10px;
+
+}
+
+#topBar {
+ width: 380px;
+ height: 35px;
+ opacity: 0.5;
+ background-color: #B5C2C7;
+ margin: 25px auto;
 }
 
 
+.logotop{
 
-.topbar{
-
-height: 200px;
+height: 570px;
 background-color: #d1e1f2;
 text-align: center;
 padding: 20px;
 
 }
 
+#bottomBar {
+ width: 380px;
+ height: 35px;
+ opacity: 0.5;
+ background-color: #B5C2C7;
+ position: fixed;
+ bottom: 83px;
+}
 
-
-#containerbox {
+#trendBox {
 
 width: 380px;
-height: 570px;
+height: 598px;
 background-color: #0b2f42;
 margin: 25px auto;
-border-radius: 10px;
+
 }
 
 
@@ -87,6 +102,10 @@ padding: 20px;
 
 
 
+
+
+
+
 .gallery{
 
 height: 700px;
@@ -94,7 +113,7 @@ width: 317px;
 /*background-color: #7992a2;*/
 text-align: center;
 padding: 20px;
-border-radius: 5px;
+
 margin: 25px auto;
 
 }
@@ -102,30 +121,61 @@ margin: 25px auto;
 #scroll{
 
 
-height:400px; 
+height:450px; 
 background-color: #7992a2;
 
 }
 
-#hubcontainerbox{
+#hubBox{
 
 width: 380px;
-height: 570px;
+height: 598px;
 background-color: #0b2f42;
 margin: 25px auto;
-border-radius: 10px;
+
 }
 
 
 #backdrop{
 
 width: 317px;
-height: 525px;
+height: 450px;
 background-color: #7992a2;
 margin: 25px auto;
-border-radius: 10px;
+
 padding: 20px;
 }
 
+#backdrop img{
+width: 150px;
+height: 200px;
+position: fixed;
+left: 475px;
+
+}
+
+.gameinfo {
+
+width: 167px;
+position: fixed;
+top: 83px;
+right: 470px;
+
+}
 
 
+.viewbutton {
+
+position: fixed;
+left: 500px;
+top: 300px;
+
+}
+
+.viewbutton img{
+
+position: fixed;
+bottom: 374px;
+
+
+}
