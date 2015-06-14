@@ -17,4 +17,8 @@
         Amanda Fraticelli
     </author>
 
+
+    <!-- calendar -->
+    <gap:plugin name="nl.x-services.plugins.calendar" version="4.2.4" />
+
 </widget>

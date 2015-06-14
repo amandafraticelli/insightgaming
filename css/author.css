@@ -8,9 +8,10 @@ nav#mainmenu a {
 	/*height: 60px;*/
 	/*line-height: 60px;*/
 	/*text-align: center;*/
-	padding: 19px;
+	padding: 7px;
 	/*unlicked tabs color*/
-	background-color: #9fbc7c;
+	/*background-color: #9fbc7c;*/
+	border: 5px #CDE3B4;
 	color: #fff;
 	text-decoration: none;
 	border-radius: 10px;
@@ -31,12 +32,12 @@ nav#mainmenu a {
 
 /*hover color*/
 nav#mainmenu a:hover {
-	background-color: #a0d190;}
+	/*background-color: #a0d190;}*/}
 						  
 
 nav#mainmenu a.selected {
-	/*clicked tab color*/
-	background-color: #CDE3B4;
+	
+	/*background-color: #CDE3B4;*/
 }
 
 
@@ -53,23 +54,49 @@ margin: 25px auto;
 
 }
 
+.pageIndicator {
+
+position: fixed;
+top: 13px;	
+right: 570px;
+}
+
+.backBtn {
+
+position: fixed;
+top: 35px;	
+right: 790px;
+}
+
 #topBar {
  width: 380px;
  height: 35px;
  opacity: 0.5;
  background-color: #B5C2C7;
  margin: 25px auto;
+text-align: center;
+line-height: 5px;
+
 }
 
 
 .logotop{
 
 height: 570px;
-background-color: #d1e1f2;
+background-color: #7992a2;
 text-align: center;
 padding: 20px;
 
 }
+
+.logoContent {
+
+position: fixed;
+top: 256px;
+right: 550px;	
+}
+
+
 
 #bottomBar {
  width: 380px;
@@ -80,25 +107,18 @@ padding: 20px;
  bottom: 83px;
 }
 
-#trendBox {
-
-width: 380px;
-height: 598px;
-background-color: #0b2f42;
-margin: 25px auto;
-
-}
 
 
 
-.logobar{
+
+/*.logobar{
 
 height: 100px;
 background-color: #d1e1f2;
 text-align: center;
 padding: 20px;
 
-}
+}*/
 
 
 
@@ -142,8 +162,8 @@ width: 317px;
 height: 450px;
 background-color: #7992a2;
 margin: 25px auto;
-
 padding: 20px;
+
 }
 
 #backdrop img{
