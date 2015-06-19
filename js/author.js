@@ -50,8 +50,8 @@ $(function(){
 	$('.pageIndicator').hide().fadeIn();('click', function() {
 
 	$(this).animate({
-		opacity:0.1,
-		paddingTop:'+=10'}.delay,3000, function() {
+		opacity:0.0,
+		paddingTop:'+=10'},300, function() {
 			// $(this).remove();
 
 
