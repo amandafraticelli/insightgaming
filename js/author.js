@@ -1,17 +1,11 @@
 
-
-
-
-
-
-
 $(function(){
 
 	$('.logotop').slideUp();('click', function() {
 
 	$(this).animate({
 		opacity:0.5,
-		paddingBottom:'+=0'}.delay(6000), function() {
+		paddingBottom:'+=0'}.delay(100), function() {
 			// $(this).remove();
 
 
