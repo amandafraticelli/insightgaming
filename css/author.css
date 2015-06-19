@@ -59,16 +59,16 @@ margin: 25px auto;
 
 position: fixed;
 top: 13px;	
-right: 570px;
-/*right: 272px;*/
+/*right: 570px;*/
+right: 272px;
 }
 
 .backBtn {
 
 position: fixed;
 top: 35px;	
-right: 790px;
-/*right: 495px;*/
+/*right: 790px;*/
+right: 495px;
 }
 
 #topBar {
@@ -173,8 +173,8 @@ padding: 20px;
 width: 150px;
 height: 200px;
 position: fixed;
-left: 475px;
-/*left: 169px;*/
+/*left: 475px;*/
+left: 169px;
 }
 
 .gameinfo {
@@ -182,8 +182,8 @@ left: 475px;
 width: 167px;
 position: fixed;
 top: 83px;
-right: 470px;
-/*right: 161px;*/
+/*right: 470px;*/
+right: 161px;
 }
 
 
