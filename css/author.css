@@ -1,51 +1,6 @@
 body { font-family: Helvetica}
 
 
-
-nav#mainmenu { text-align: center; margin-bottom: -40px; } 
-nav#mainmenu a {
-	display: inline-block;
-	/*width: 60px;*/
-	/*height: 60px;*/
-	/*line-height: 60px;*/
-	/*text-align: center;*/
-	padding: 7px;
-	/*unlicked tabs color*/
-	/*background-color: #9fbc7c;*/
-	border: 5px #CDE3B4;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 10px;
-	margin-left: 15px;
-	margin-top: -50px;
-
-	font-size: 13px;
-
-	position: relative;
-
-	bottom: -444px;
-	left: -8px;
-	
-
-}
-
-
-
-/*hover color*/
-nav#mainmenu a:hover {
-	/*background-color: #a0d190;}*/}
-						  
-
-nav#mainmenu a.selected {
-	
-	/*background-color: #CDE3B4;*/
-}
-
-
-
-
-
-
 #mainContainer {
 
 width: 380px;
@@ -109,27 +64,9 @@ right: 215px;
  opacity: 0.5;
  background-color: #B5C2C7;
  position: fixed;
- /*bottom: 83px;*/
- bottom: 39px;
+ bottom: 83px;
+ /*bottom: 10px;*/
 }
-
-
-
-
-
-/*.logobar{
-
-height: 100px;
-background-color: #d1e1f2;
-text-align: center;
-padding: 20px;
-
-}*/
-
-
-
-
-
 
 
 .gallery{
@@ -219,50 +156,3 @@ bottom: 374px;
 
 
 
-/*Calendar*/
-
-
-
-
-
-
-/* INFO VIEW STYLES */
-.logo-image-wrapper {
-    background-color: #fff;    
-}
-
-.logo-image {
-    background-image: url(../styles/images/logo.png);
-    background-repeat: no-repeat;
-    width: 319px;
-    height: 60px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* DEMO VIEW STYLES */
-.demo .button {
-    margin: 0 auto;
-    margin-bottom: 14px;
-    display: block;
-    width: 80%;
-}
-
-h3.hassubtitle {
-    margin-bottom: 0;
-}
-
-.subtitle {
-    color: #999;
-    font-size: 0.8em;
-    margin-left: 1rem;
-    margin-bottom: 0.8rem;
-}
-
-/* RETINA DISPLAY STYLES */
-@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
-    .logo-image {
-        background-image: url(../styles/images/logo2x.png);
-        background-size: 100%;
-    }
-}
